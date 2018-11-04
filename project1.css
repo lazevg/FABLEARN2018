@@ -1,5 +1,27 @@
-body {
-    background-image: url("back.jpg");
-    background-repeat: no-repeat;
+body{
+    background: url(impacreater.JPG);
     background-size: cover;
- }
+    direction: rtl;
+	text-align: right;
+}
+.top{
+    width: 100%;
+    display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	flex-wrap: wrap;
+    height: 20vh;
+    margin: auto;
+}
+.yamin{
+    width: 60%;
+    height: 20vh;
+    /* display: flex; */
+}
+.button{
+    padding-top: 20px;
+    margin: 0px;
+    width: 40%;
+    height: 20px;
+    display: flex;
+}
