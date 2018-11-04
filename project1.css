@@ -28,6 +28,7 @@ body{
     width: 40%;
     height: 20px;
     display: flex;
+    flex-direction: row-reverse;
    
 }
 .center1 {
@@ -63,13 +64,14 @@ body{
     text-decoration:none;
     text-shadow:-4px -2px 3px #7a2a1d;
 }
-.myButton:hover {
+.press-now:hover {
     background-color:#b34332;
 }
-.myButton:active {
+.press-now:active {
     position:relative;
     top:1px;
 }
 .play{
     text-align: center;
+    border: 1px solid;
 }
